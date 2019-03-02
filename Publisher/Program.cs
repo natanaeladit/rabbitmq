@@ -20,13 +20,19 @@ namespace Publisher
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare("hello", false, false, false, null);
+                    Console.WriteLine("Input q to EXIT program or type any message to send message");
+                    string input = "Hello World!";
+                    while (input != "q")
+                    {
+                        channel.QueueDeclare("hello", false, false, false, null);
 
-                    var message = "Hello World!";
-                    var body = Encoding.UTF8.GetBytes(message);
+                        var message = input;
+                        var body = Encoding.UTF8.GetBytes(message);
 
-                    channel.BasicPublish(String.Empty, "hello", null, body);
-                    Console.WriteLine(" [x] Sent {0}", message);
+                        channel.BasicPublish(String.Empty, "hello", null, body);
+                        Console.WriteLine(" [x] Sent {0}", message);
+                        input = Console.ReadLine();
+                    }
                 }
             }
             Console.ReadLine();
