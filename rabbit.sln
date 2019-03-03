@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28621.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{584E0576-9D51-4C49-AA5A-B74420CA7734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicPublisher", "Publisher\BasicPublisher.csproj", "{584E0576-9D51-4C49-AA5A-B74420CA7734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "Subscriber\Subscriber.csproj", "{4551E6AD-925F-45BD-AF7E-E8825F94BFFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSubscriber", "Subscriber\BasicSubscriber.csproj", "{4551E6AD-925F-45BD-AF7E-E8825F94BFFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangePublisher", "ExchangePublisher\ExchangePublisher.csproj", "{2FA78350-5468-4468-9C05-862271E7DC27}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePublisher", "RoutePublisher\RoutePublisher.csproj", "{74F65137-EA3A-46A2-8B1D-7BEE98C7E674}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteSubscriber", "RouteSubscriber\RouteSubscriber.csproj", "{1A4BA3EC-2B53-48F7-8D48-559FF17623DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicPublisher", "TopicPublisher\TopicPublisher.csproj", "{0F85E8F5-D041-4770-B525-D725FDFB2146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicSubscriber", "TopicSubscriber\TopicSubscriber.csproj", "{F2A81BE2-E2E1-4A0F-BBEF-A6C33FDB3781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1A4BA3EC-2B53-48F7-8D48-559FF17623DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4BA3EC-2B53-48F7-8D48-559FF17623DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4BA3EC-2B53-48F7-8D48-559FF17623DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F85E8F5-D041-4770-B525-D725FDFB2146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F85E8F5-D041-4770-B525-D725FDFB2146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F85E8F5-D041-4770-B525-D725FDFB2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F85E8F5-D041-4770-B525-D725FDFB2146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A81BE2-E2E1-4A0F-BBEF-A6C33FDB3781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A81BE2-E2E1-4A0F-BBEF-A6C33FDB3781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A81BE2-E2E1-4A0F-BBEF-A6C33FDB3781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A81BE2-E2E1-4A0F-BBEF-A6C33FDB3781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
